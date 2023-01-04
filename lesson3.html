@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Урок 3</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/green-audio-player.css"
+    />
+    <link rel="stylesheet" href="style/mystyle.css" />
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/green-audio-player.js"></script>
+    <script src="js/myjs.js"></script>
+
+  </head>
+  <body>
+    <div class="container header_lesson">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 images">
+          <img
+            id="images"
+            class="img-fluid mx-auto d-block"
+            width="50%"
+            src="img/moyennes.jpeg"
+          />
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <h2 class="text-center text-uppercase">
+            Люксембурзька мова для українців
+          </h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 images">
+          <img
+            id="images"
+            class="img-fluid mx-auto d-block"
+            width="50%"
+            src="img/Flag_of_Luxembourg.svg.png"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar" style="background-color: #e3f2fd">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" title="Homepage">Головна сторінка</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="lesson1.html"
+                role="button"
+                aria-expanded="false"
+                title="List of lessons"
+                >Список уроків</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="lesson1.html" title="Lesson 1">Урок 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="lesson2.html" title="Lesson 2">Урок 2</a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item active"
+                    aria-current="page"
+                    href="lesson3.html"
+                    title="Lesson 3"
+                    >Урок 3</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="lesson4.html" title="Lesson 4">Урок 4</a></li>
+                <li><a class="dropdown-item" href="lesson5.html" title="Lesson 5">Урок 5</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="link.html" title="Links">Посилання</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/13.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Hello"
+            />
+            <h3 class="text-center p-2">Друга частина</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample1"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample1"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample2"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample2"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample2">
+              <div class="gap-example">
+                <audio>
+                  <source
+                    src="audio/13. Pidsumkove_zachutuvannia_chactuna2.m4a"
+                    type="audio/mpeg"
+                  />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample1">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>Мене звати Леся.</td>
+                    <td>Ech heesche Lecya.</td>
+                  </tr>
+                  <tr>
+                    <td>Моє ім'я Леся.</td>
+                    <td>Mäin Virnumm ass Lecya.</td>
+                  </tr>
+                  <tr>
+                    <td>Моє прізвище Мюллер.</td>
+                    <td>Mäi Familljennumm ass Müller.</td>
+                  </tr>
+                  <tr>
+                    <td>Я Леся Мюллер.</td>
+                    <td>Ech sin d'Lecya Müller.</td>
+                  </tr>
+                  <tr>
+                    <td>Звідки Ви?</td>
+                    <td>Vu wou kommt Dir?</td>
+                  </tr>
+                  <tr>
+                    <td>Я з України.</td>
+                    <td>Ech kommen aus der Ukraine.</td>
+                  </tr>
+                  <tr>
+                    <td>Я українка/українець.</td>
+                    <td>Ech sin eng Urkainerln.</td>
+                  </tr>
+                  <tr>
+                    <td>Звідки саме з України Ви?</td>
+                    <td>Vun wou genau an der Ukraine sidd Dir?</td>
+                  </tr>
+                  <tr>
+                    <td>Я з Київа.</td>
+                    <td>Ech sinn aus Kyiv.</td>
+                  </tr>
+                  <tr>
+                    <td>Я раніше жила в Львові.</td>
+                    <td>Ech hunn fréier zu Lviv gewunnt.</td>
+                  </tr>
+                  <tr>
+                    <td>Я зі сходу/заходу/півдня/півночі/центру України.</td>
+                    <td>
+                      Ech sin aus dem Osten/Westen/ Süden/Norden/ Zentrum vun
+                      der Ukraine.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>А де ви живете в Люксембурзі?</td>
+                    <td>An wou wunnt Dir zu Lëtzebuerg?</td>
+                  </tr>
+                  <tr>
+                    <td>Я живу в Штрассені.</td>
+                    <td>Ech wunnen zu Strossen.</td>
+                  </tr>
+                  <tr>
+                    <td>Ви мешкаєте в особняку чи в квартирі?</td>
+                    <td>Wunnt Dir an engem Haus oder an engem Appartement?</td>
+                  </tr>
+                  <tr>
+                    <td>Я живу в маленькому будинку в сімї.</td>
+                    <td>
+                      Ech wunnen an engem kleingen Haus bei enger Gaaschtfamill.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Я ще не довго живу в Люксембурзі.</td>
+                    <td>Ech wunnen nach nët lang zu Lëtzebuerg.</td>
+                  </tr>
+                  <tr>
+                    <td>Я говорю тільки трохи по-люксембурзки.</td>
+                    <td>Ech schwetzen e bëssen lëtzebuergesch.</td>
+                  </tr>
+                  <tr>
+                    <td>Вам подобається в Люксембурзі?</td>
+                    <td>Gefällt et lech zu Lëtzebuerg?</td>
+                  </tr>
+                  <tr>
+                    <td>Мені тут дуже подобається.</td>
+                    <td>Et gefällt mir ganz gudd hei.</td>
+                  </tr>
+                  <tr>
+                    <td>Я сумую за моєю Батьківщиною.</td>
+                    <td>Ech vermëssen awer och meng Heemecht.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/14.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Hello"
+            />
+            <h3 class="text-center p-2">Цифри 1</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_1"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_1"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_2"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_2"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_2">
+              <div class="gap-example">
+                <audio>
+                  <source src="audio/14. Cifru_1.m4a" type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_1">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>Нуль</td>
+                    <td>Null</td>
+                  </tr>
+                  <tr>
+                    <td>Один</td>
+                    <td>Eent</td>
+                  </tr>
+                  <tr>
+                    <td>Два</td>
+                    <td>Zwee</td>
+                  </tr>
+                  <tr>
+                    <td>Три</td>
+                    <td>Dräi</td>
+                  </tr>
+                  <tr>
+                    <td>Чотири</td>
+                    <td>Véier</td>
+                  </tr>
+                  <tr>
+                    <td>П'ять</td>
+                    <td>Fënnef</td>
+                  </tr>
+                  <tr>
+                    <td>Шість</td>
+                    <td>Sechs</td>
+                  </tr>
+                  <tr>
+                    <td>Сім</td>
+                    <td>Siwen</td>
+                  </tr>
+                  <tr>
+                    <td>Вісім</td>
+                    <td>Aacht</td>
+                  </tr>
+                  <tr>
+                    <td>Дев'ять</td>
+                    <td>Néng</td>
+                  </tr>
+                  <tr>
+                    <td>Десять</td>
+                    <td>Zéng</td>
+                  </tr>
+                  <tr>
+                    <td>Одинадцять</td>
+                    <td>Eelef</td>
+                  </tr>
+                  <tr>
+                    <td>Дванадцять</td>
+                    <td>Zwielef</td>
+                  </tr>
+                  <tr>
+                    <td>Тринадцять</td>
+                    <td>Dräizéng</td>
+                  </tr>
+                  <tr>
+                    <td>Чотирнадцять</td>
+                    <td>Véierzéng</td>
+                  </tr>
+                  <tr>
+                    <td>П'ятнадцять</td>
+                    <td>Fofzéng</td>
+                  </tr>
+                  <tr>
+                    <td>Шістнадцять</td>
+                    <td>Siechzéng</td>
+                  </tr>
+                  <tr>
+                    <td>Сімнадцять</td>
+                    <td>Siewenzéng</td>
+                  </tr>
+                  <tr>
+                    <td>Вісімнадцять</td>
+                    <td>Uechzéng</td>
+                  </tr>
+                  <tr>
+                    <td>Дев'ятнадцять</td>
+                    <td>Nonzéng</td>
+                  </tr>
+                  <tr>
+                    <td>Двадцять</td>
+                    <td>Zwanzeg</td>
+                  </tr>
+                  <tr>
+                    <td>Тридцять</td>
+                    <td>Drësseg</td>
+                  </tr>
+                  <tr>
+                    <td>Сорок</td>
+                    <td>Véierzeg</td>
+                  </tr>
+                  <tr>
+                    <td>Пятдесят</td>
+                    <td>Fofzeg</td>
+                  </tr>
+                  <tr>
+                    <td>Шістдесят</td>
+                    <td>Siechzeg</td>
+                  </tr>
+                  <tr>
+                    <td>Сімдесят</td>
+                    <td>Siewwenzeg</td>
+                  </tr>
+                  <tr>
+                    <td>Вісімдесят</td>
+                    <td>Achtzeg</td>
+                  </tr>
+                  <tr>
+                    <td>Дев'яносто</td>
+                    <td>Nonzeg</td>
+                  </tr>
+                  <tr>
+                    <td>Сто</td>
+                    <td>Honnert</td>
+                  </tr>
+                  <tr>
+                    <td>Двісті</td>
+                    <td>Zweehonnert</td>
+                  </tr>
+                  <tr>
+                    <td>Триста</td>
+                    <td>Dräihonnert</td>
+                  </tr>
+                  <tr>
+                    <td>Чотириста</td>
+                    <td>Véierhonnert</td>
+                  </tr>
+                  <tr>
+                    <td>П'ятсот</td>
+                    <td>Fënnefhonnert</td>
+                  </tr>
+                  <tr>
+                    <td>Шістсот</td>
+                    <td>Sechshonnert</td>
+                  </tr>
+                  <tr>
+                    <td>Сімсот</td>
+                    <td>Siwenhonnert</td>
+                  </tr>
+                  <tr>
+                    <td>Вісімсот</td>
+                    <td>Aachthonnert</td>
+                  </tr>
+                  <tr>
+                    <td>Дев'ятсот</td>
+                    <td>Nénghonnert</td>
+                  </tr>
+                  <tr>
+                    <td>Тисяча</td>
+                    <td>Dausend</td>
+                  </tr>
+                  <tr>
+                    <td>Дві тисячі</td>
+                    <td>Zweedausend</td>
+                  </tr>
+                  <tr>
+                    <td>Три тисячі</td>
+                    <td>Dräidausend</td>
+                  </tr>
+                  <tr>
+                    <td>Мільйон</td>
+                    <td>Eng Milioun</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/15.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Hello"
+            />
+            <h3 class="text-center p-2">Цифри 2</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_3"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_3"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_4"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_4"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_4">
+              <div class="gap-example">
+                <audio>
+                  <source src="audio/15. Cifru_2.m4a" type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_3">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>21</td>
+                    <td>eenanzwanzeg</td>
+                  </tr>
+                  <tr>
+                    <td>22</td>
+                    <td>zweeanzwanzeg</td>
+                  </tr>
+                  <tr>
+                    <td>125</td>
+                    <td>honnertfënnefanzwanzeg</td>
+                  </tr>
+                  <tr>
+                    <td>2037</td>
+                    <td>zweedausendsiewenandrësseg</td>
+                  </tr>
+                  <tr>
+                    <td>50731</td>
+                    <td>Fënnef-Null-Siwen-Dräi-Eent</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/16.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Як ви поживаєте"
+            />
+            <h3 class="text-center p-2">Цифри 3</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_5"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_5"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_6"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_6"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_6">
+              <div class="gap-example">
+                <audio>
+                  <source src="audio/16.Cifru_3.m4a" type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_5">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>Який ваш номер соціальної страхівки?</td>
+                    <td>Wéi ass äer Matriculsnummer?</td>
+                  </tr>
+                  <tr>
+                    <td>Мені потрібно ваш номер соціальної страхівки.</td>
+                    <td>Ech brauch äer Matriculsnummer.</td>
+                  </tr>
+                  <tr>
+                    <td>Мій номер соціальної страхівки 1970130512340.</td>
+                    <td>Meng Matriculsnummer ass 1970130512340.</td>
+                  </tr>
+                  <tr>
+                    <td>Мені потрібен номер вашого телефону.</td>
+                    <td>Ech brauch äer Telefonsnummer.</td>
+                  </tr>
+                  <tr>
+                    <td>Мій номер телефону +352 456789.</td>
+                    <td>Meng Telefonsnummer ass +352 456789.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/17.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Подяка"
+            />
+            <h3 class="text-center p-2">Пори року</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_7"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_7"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_8"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_8"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_8">
+              <div class="gap-example">
+                <audio>
+                  <source src="audio/17. Poru_roku.m4a" type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_7">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>Зима</td>
+                    <td>Wanter.</td>
+                  </tr>
+                  <tr>
+                    <td>Весна</td>
+                    <td>Fréijoer.</td>
+                  </tr>
+                  <tr>
+                    <td>Літо</td>
+                    <td>Summer.</td>
+                  </tr>
+                  <tr>
+                    <td>Осінь</td>
+                    <td>Hierscht.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/18.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Вибачте"
+            />
+            <h3 class="text-center p-2">Дні тижня</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_9"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_9"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_10"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_10"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_10">
+              <div class="gap-example">
+                <audio>
+                  <source src="audio/18. Dni_tuzhnia_1.m4a" type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_9">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>Дні тижня</td>
+                    <td>D'Wochendeeg.</td>
+                  </tr>
+                  <tr>
+                    <td>Понеділок</td>
+                    <td>Méindeg.</td>
+                  </tr>
+                  <tr>
+                    <td>Вівторок</td>
+                    <td>Dënschdeg.</td>
+                  </tr>
+                  <tr>
+                    <td>Середа</td>
+                    <td>Mëttwoch.</td>
+                  </tr>
+                  <tr>
+                    <td>Червер</td>
+                    <td>Donneschdeg.</td>
+                  </tr>
+                  <tr>
+                    <td>П'ятниця</td>
+                    <td>Freideg.</td>
+                  </tr>
+                  <tr>
+                    <td>Субота</td>
+                    <td>Samschdeg.</td>
+                  </tr>
+                  <tr>
+                    <td>Неділя</td>
+                    <td>Sonndeg.</td>
+                  </tr>
+                  <tr>
+                    <td>Сьогодні</td>
+                    <td>Haut.</td>
+                  </tr>
+                  <tr>
+                    <td>Завтра</td>
+                    <td>Muer.</td>
+                  </tr>
+                  <tr>
+                    <td>Вчора</td>
+                    <td>Gëschter.</td>
+                  </tr>
+                  <tr>
+                    <td>День</td>
+                    <td>Dag.</td>
+                  </tr>
+                  <tr>
+                    <td>Тиждень</td>
+                    <td>Woch.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-3 justify-content-center p-2 m-0">
+          <div class="col-lg-1 col-md-2 col-sm-3">
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              onclick="window.location.href='lesson2.html';"
+            >
+              <img src="img/left.png" class="img-fluid" width="65%" />
+            </button>
+          </div>
+          <div class="col-lg-1 col-md-2 col-sm-3">
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              onclick="window.location.href='lesson4.html';"
+            >
+              <img src="img/right.png" class="img-fluid" width="65%" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="background-color: var(--colHead)">
+      <div class="row">
+        <div class="col-10 p-3">
+          <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" title="Homepage">Головна сторінка</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lesson1.html" title="Lesson 1">Урок 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lesson2.html" title="Lesson 2">Урок 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hov" aria-current="page" href="lesson3.html" title="Lesson 3">Урок 3</a>  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lesson4.html" title="Lesson 4">Урок 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lesson5.html" title="Lesson 5">Урок 5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="link.html" title="Links">Посилання</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-1 pdflink">
+          <a href="pdf/Lessons.pdf" target="_blank" title="PDF"
+            ><img class="img-fluid hov" width="70%" src="img/pdf-icon.png"
+          /></a>
+        </div>
+        <div class="col-1 tel">
+          <a
+            href="https://t.me/+CLiMJfTA4UliN2My"
+            target="_blank"
+            title="Telegram"
+            ><img
+              class="img-fluid hov"
+              width="70%"
+              src="img/telegram-logo-png-0.png"
+          /></a>
+        </div>
+        <div class="col-12">
+          <div class="text-uppercase">
+            <p>&copy Всі права на інформацію належать Лесі Файппель-Турелик.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

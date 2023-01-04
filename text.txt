@@ -1,0 +1,396 @@
+Кілька корисних фраз для початку
+Вітання   2
+Здраствуйте! Moien! Salut! Bonjour!
+Доброго ранку! Gudde Moien!
+Доброго дня! Gudde Metteg!
+Доброго вечора! Gudden Owend!
+
+Прощання   3
+До побачення! Äddi! Awuer!
+До наступнх зустрічей! Bis soss eng Kéier!
+
+Як ви поживаєте?  4
+Як ви? Wéi ass et?
+Як ви поживаєте? Wéi geet et lech?
+Дякую, в мене все добре. Merci, et geet mir gutt.
+Все добре! Et geet.ça va.
+В мене не все гарзд. Et geet mir net sou gutt.
+
+Подяка. 5
+Дякую! Merci!
+Дуже дякую! Merci vill Mols!
+Дякую, це дуже мило! Merci, et ass gans léif.
+Нема за що! Gär geschitt. Gär! Keen Thema!
+Від щирого серця! Dat kënnt vum Härz!
+
+Вибачте 6
+Вибачте! Et deet mer leed! Sorry! Pardon! Entschëllegt!
+Нема за що! Et ass nët schlëmm! Kéng Affaire!
+
+Звертення 7
+Пані! Madame!
+Пане! Monsieur!
+Вибачте! Pardon! Entschëllegt!
+
+Прохання 8
+Будь ласка! Wann ech gelift! (скорочено - w.e.g.) 
+Вибачте, пані, чи могли б Ви...? Entschëllegt, Madame, kënnt Dir...?
+Чи могли б Ви, будь ласка, ...? Kënnt Dir, w.e.g, ...?
+
+Приклад діалогу 9
+Вибачте, пані, чи могли б Ви сказати, де знаходиться пошта?
+Entschëllegt, Madame, kënnt Dir, mir w.e.g soen, wou hei d'Post ass?
+Звичайно. Пошта через дорогу.  Sëcher, d'Post ass vis-à-vis.
+Дуже дякую!  Merci villmols!
+Нема за що!  Et ass näischt!
+
+Давайте познайомимося! 11
+Мене звати Леся.  Ech heesche Lecya.
+Моє імя Леся.  Mäin Virnumm ass Lecya.
+Моє прізвище Мюллер.   Mäi Familljennumm ass Müller.
+Я Леся Мюллер. Ech sin d'Lecya Müller.
+Звідки Ви?   Vu wou kommt Dir?
+Я з України.  Ech kommen aus der Ukraine.
+Я уркаїнка/українець.  Ech sin eng Urkainerln.
+Звідки саме з України Ви?   Vun wou genau an der Ukraine sidd Dir?
+Я з Київа.   Ech sinn aus Kyiv.
+
+
+Я раніше жила в Львові.  Ech hunn fréier zu Lviv gewunnt.
+Я зі сходу/заходу/півдня/півночі/центру України.  
+Ech sin aus dem Osten/Westen/Süden/Norden/Zentrum vun der Ukraine.
+А де ви живете в Люксембурзі?  An wou wunnt Dir zu Lëtzebuerg?
+Я живу в Штрассені. Ech wunnen zu Strossen.
+Ви мешкаєте в особняку чи в квартирі?
+Wunnt Dir an engem Haus oder an engem Appartement?
+Я живу в маленькому будинку в сімї.
+ Ech wunnen an engem kleingen Haus bei enger Gaaschtfamill.
+Я ще не довго живу в Люксембурзі.
+Ech wunnen nach nët lang zu Lëtzebuerg.
+Я говорю тільки трохи по-люксембурзки.
+Ech schwetzen e bëssen lëtzebuergesch.
+Вам подобається в Люксембурзі?
+Gefällt et lech zu Lëtzebuerg?
+Мені тут дуже подобається.
+Et gefällt mir ganz gudd hei.
+Я сумую за моєю Батьківщиною.
+Ech vermëssen awer och meng Heemecht.
+
+Цифри 14
+Нуль  Null
+Один  Eent 
+Два  Zwee
+Три  Dräi
+Чотири  Véier
+П'ять  Fënnef
+Шість Sechs 
+Сім  Siwen 
+Вісім Aacht 
+Дев'ять Néng 
+Десять  Zéng
+
+Одинадцять  Eelef
+Дванадцять  Zwielef
+Тринадцять  Dräizéng 
+Чотирнадцять  Véierzéng
+П'ятнадцять  Fofzéng
+Шістнадцять  Siechzéng
+Сімнадцять  Siewenzéng
+Вісімнадцять  Uechzéng
+Дев'ятнадцять  Nonzéng 
+
+Двадцять  Zwanzeg 
+Тридцять  Drësseg
+Сорок  Véierzeg
+Пятдесят  Fofzeg
+Шістдесят  Siechzeg
+Сімдесят  Siewwenzeg
+Вісімдесят  Achtzeg
+Дев'яносто  Nonzeg
+
+Сто  Honnert 
+Двісті Zweehonnert 
+Триста Dräihonnert 
+Чотириста Véierhonnert 
+П'ятсот  Fënnefhonnert
+Шістсот  Sechshonnert
+Сімсот  Siwenhonnert
+Вісімсот  Aachthonnert
+Дев'ятсот  Nénghonnert
+
+Тисяча  Dausend 
+Дві тисячі  Zweedausend 
+Три тисячі  Dräidausend
+Мільйон  Eng Milioun 
+
+15
+21 eenanzwanzeg
+22 zweeanzwanzeg
+125 honnertfënnefanzwanzeg
+2037 zweedausendsiewenandrësseg
+50731  Fënnef-Null-Siwen-Dräi-Eent
+16
+Який ваш номер соціальної страхівки? Wéi ass äer Matriculsnummer?
+
+Мені потрібно ваш номер соціальної страхівки. 
+Ech brauch äer Matriculsnummer.
+
+Мій номер соціальної страхівки 1970130512340.
+Meng Matriculsnummer ass 1970130512340.
+
+Мені потрібен номер вашого телефону.
+Ech brauch äer Telefonsnummer.
+
+Meng Telefonsnummer ass +352 456789.
+Мій номер телефону +352 456789.
+
+17
+Пори року
+Зима  Wanter.
+Весна  Fréijoer.
+Літо  Summer.
+Осінь  Hierscht.
+18
+Дні тижня  D'Wochendeeg.
+Понеділок Méindeg.
+Вівторок Dënschdeg.
+Середа Mëttwoch.
+Червер Donneschdeg.
+П'ятниця Freideg.
+Субота Samschdeg.
+Неділя  Sonndeg.
+Сьогодні  Haut.
+Завтра  Muer.
+Вчора Gëschter.
+День  Dag.
+Тиждень  Woch.
+
+19
+Місяць  Mount.
+Рік  Joer.
+20
+Місяці  D'Méint 
+Січень  Januar.
+Лютий  Februar.
+Березень  Mäerz.
+Квітень  Abrëll.
+Травень  Mee.
+Червень  Juni.
+Липень  Juli.
+Серпень  August.
+Вересень  September.
+Жовтень  Oktober.
+Листопад  November.
+Грудень  Dezember.
+
+21
+Приклад діалогу
+Який сьогодні день? Wat fir en Dag ass haut? 
+Сьогодні понеділок, 18 серпня.  Haut ass Méindeg, den 18 August.
+
+21
+Приклад діалогу
+Коли в Люксембурзі починається шкільне навчання?
+Weini fäengt zu Lëtzebuerg d'Schoul un?
+Школа починається восени. D'Schoul fäengt am Hierscht un.
+А коли саме? An wéini genee?
+15 вересня. (Den) 15. September.
+А коли закінчеється шкільний рік? 
+An wéini ass d'Schouljoer eriwwer?
+15 липня. Den 15. Juli.
+Як дивно! У нав в Україні шкільний рік починається 1 вересня і 
+закінчується як правило 1 червня.
+Wéi komesch! Bei ons an der Ukraine fäengt d'Schoul den 1. September un 
+an ass gewéinlech den 1. Juni eriwwer.
+
+23
+Котра година? Wéi vill Auer ass et?
+Скажіть, будь-ласка, котра година? Kënnt Dir mir w.e.g. soën, wéi vill Auer et ass?
+Зараз 13:45. Et ass elo dräizéng Auer fënnefanvéierzeg (Véierel vir zwou)
+Зараз 8:25. Et ass elo aacht Auer fënnefanzwanzeg (fënnef vir Hallwer néng)
+Завтра 20:10. Et ass elo zéng op aacht.
+Зараз чверть на десяту. Et ass elo Véierel op néng.
+Зараз пів на десяту.  Et ass elo Hallwer zéng.
+Зараз за 15 десята.  Et ass elo Véierel vir zéng.
+
+2
+Домоляємося про зустріч.
+О котрій годині ми зустрінемося?
+Um wéi vill Auer treffen mir ons?
+
+Скажіть, будь-ласка, о котрій годині ми можемо зустрітися?
+Kënnt Dir mir w.e.g. soën, um wéi vill Auer mir ons treffen?
+
+В який день ми можемо зустрітися?
+Watfireen Dag kënnen mir ons treffen?
+
+Коли саме я можу до тебе підійти?
+Wéini genau kann ech bei Dir laanscht kommen?
+
+Ми зустрінемося у вівторок, 5 березня, о 17:25.
+Mir treffen ons den Dënschdeg, 5. Mäerz, ëm siwwinzéng Auer fënnefanzwanzeg.
+
+Правильно?
+Richteg?
+
+Вибач, я не впевнена коли ми запланували зустрітися.
+Et deet mer leed, ech sin mir nët secher, wéini mir ons treffen wollten.
+
+Нагадай мені о котрій годині ми зустрічаємося.
+Erënner mech drun, em wéi vill Auer mir ons treffen sollten.
+
+Я вільна починаючи з 17:00.
+Ech hun vun fënnef Auer un fräi.
+
+Коли ти вільний?
+Wéini hues Du fräi?
+
+Які дні в тебе вихідні?
+Watfir Deeg hues Du fräi?
+
+О котрій годині в тебе обідня перерва?
+Em wéi vill Auer hues Du Mëttespaus?
+
+
+27
+О котрій годині вранці ти починаєш працювати?
+Em wéi vill Auer fänkst Du moies mat schaffen un?
+
+Вибач, я не зможу прийти на домовлену зустріч.
+Et deet mer leed, ech kann nët op onsen Rendez-Vous (RdV) kommen.
+
+Давай перенесемо нашу зустріч на пятницю.
+Komm, mir verléën onsen Rendez-Vous op den Freideg.
+
+28
+Домовляємося про офіційну зустріч.
+
+Мені потрібно зустрітися з Вами.
+Ech muss lech gesin.
+
+Коли у вас є можливість?
+Wéini geet et lech?
+
+В цей час я завжди зайнятий.
+Em des Zäit sin ech ëmmer beschäftegt.
+
+Можна пізніше?
+Geet et méi spéit?
+
+Я повинен до вас підійти, щоб обговорити деякі деталі.
+Ech muss bei lech laanscht kommen fir e puer Detailer ze klären.
+
+Вибачте, у мене є декілька важливих питань щодо роботи.
+Entschëllegt, ech hun e puer wichteg Froen wat d'Aarbecht ugeet.
+
+О котрій годині відкривається ваш кабінет?
+Em wéi vill Auer mécht Aeren Büro op?
+
+Ви працюєтe до котрої години?
+Bis wéi vill Auer schafft Dir?
+
+Чи можу я просто прийти до вас без запису?
+Däerf ech ouni en RdV bei lech laanscht kommen?
+
+Можна прийти, коли мені зручно?
+Kann ech laanscht kommen wann et mit geet?
+
+Підходьте, коли вам зручно.
+Kommt, wann et lech am Beschten geet.
+
+Це не проблема.
+Et ass keen Problem.
+
+Вам підходить середа, 5 лютого о 15:10?
+Geet et lech den Mëttwoch, den Fënneften Februar em fofzéng Auer zéng?
+
+Підходить, я буду.
+Et geet, ech sin do.
+
+Вибачте, я повинен анулювати домовлену зустріч.
+Et deet mer leed, mais ech muss onsen RdV annuléieren.
+
+В мене сталося щось непередбачуване.
+Mir ass eppes dotëschent komm.
+
+Давайте домовимося про нову зустріч.
+Loost ons en neien RdV ausmaachen.
+
+29
+Записуємося на прийом до лікаря
+
+Я хочу записатись на прийом до лікаря Мюллера.
+Ech hätt gären en RdV beim Dokter Müller.
+
+Коли у лікаря наступний вільний прийом?
+Wéini huet den Dokter den nächsten fräien RdV?
+
+Коли вам найкраще підходить?
+Wéini geet et lech am Beschten?
+
+Мені підходить найкраще щосереди після обіду.
+Mir geet et am Beschten mëttwochs am Nomëtteg.
+
+Я вільний щодня після 16:00.
+Ech sin all Daag no véier Auer disponibel.
+
+Наступний вільний прийом у лікаря у січні.
+Den nächsten fräien RdV beim Dokter ass am Januar.
+
+Я повинен терміново прийти до лікаря.
+Ech muss drengend bei den Dokter.
+
+Це терміново.
+Et ass drengend.
+
+Це не терміново.
+Et ass nët drengend.
+
+Я можу почекати.
+Ech kann waarden.
+
+Вибачте, я не можу так довго чекати.
+Entschëllegt, ech kann nët esou laang waarden.
+
+Може є можливість підійти раніше?
+Get et eng Méiglechkeet fir méi fréi un d'Rei ze kommen?
+
+Повторіть, будь-ласка, коли я записана на прийом до лікаря Мюллера.
+Widderhuelt w.e.g. wéini ech den RdV beim Dokter Müller hun.
+
+За якою адресою знаходиться кабінет лікаря Мюллера?
+Wéi ass D'Adress vum Dokter Müller senger Praxis?
+
+Адреса вашого кабінету вулиця Гранд 15?
+Ass d'Praxis op 15, Grand rue?
+
+Це правильно?
+Ass daat richteg?
+
+Продиктуйту вашу адресу.
+Diktéiert Äer Adress.
+
+Де ви живете?
+Wou wunnt Dir?
+
+Мені потрібна ваша адреса.
+Ech brauch Äer Adress.
+
+Моя адреса вулиця Мулін 5.
+Meing Adress ass 5, rue du Moulin Bereldange.
+
+Чи змінилась ваша адреса?
+Huet Äer Adress sech geännert?
+
+У мене та сама адреса.
+Ech hun nach déi selwecht Adress?
+
+Чи змінився ваш номер телефону?
+Huet sech Äer Telefonsnummer geäennert?
+
+В мене новий номер телефону 621 123 456.
+Ech hun eng nei Telefonsnummer 621 123 456.
+
+
+
+
