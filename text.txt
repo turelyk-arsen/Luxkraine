@@ -259,7 +259,7 @@ Em wéi vill Auer fänkst Du moies mat schaffen un?
 Вибач, я не зможу прийти на домовлену зустріч.
 Et deet mer leed, ech kann nët op onsen Rendez-Vous (RdV) kommen.
 
-Давай перенесемо нашу зустріч на пятницю.
+Давай перенесемо нашу зустріч на п'ятницю.
 Komm, mir verléën onsen Rendez-Vous op den Freideg.
 
 28
@@ -367,7 +367,7 @@ Ass d'Praxis op 15, Grand rue?
 Це правильно?
 Ass daat richteg?
 
-Продиктуйту вашу адресу.
+Продиктуйте вашу адресу.
 Diktéiert Äer Adress.
 
 Де ви живете?
@@ -383,7 +383,7 @@ Meing Adress ass 5, rue du Moulin Bereldange.
 Huet Äer Adress sech geännert?
 
 У мене та сама адреса.
-Ech hun nach déi selwecht Adress?
+Ech hun nach déi selwecht Adress.
 
 Чи змінився ваш номер телефону?
 Huet sech Äer Telefonsnummer geäennert?

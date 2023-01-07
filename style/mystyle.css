@@ -123,3 +123,25 @@ background-color: #cdeaff;
 color: #101b24;
 border-radius: 5px;
 }
+
+iframe:hover {
+	-webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  100% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+.bounce-out-right {
+	-webkit-animation: bounce-out-right 1.5s both;
+	        animation: bounce-out-right 1.5s both;
+}
+
