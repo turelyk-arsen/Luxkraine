@@ -93,8 +93,6 @@ body {
   margin-top: 130px;
 }
 
-
-
 .hov {
   overflow: hidden;
 }
@@ -114,31 +112,39 @@ img {
   transform: scale(1.1);
 }
 .lin:hover {
-background-color: rgb(255, 0, 0);
-color: rgb(255, 255, 255);
-border-radius: 3px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
 }
 .nav-link:hover {
-background-color: #cdeaff;
-color: #101b24;
-border-radius: 5px;
+  background-color: #cdeaff;
+  color: #101b24;
+  border-radius: 5px;
 }
+
 iframe:hover {
-	-webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: scale-up-center 0.6s ease-in both;
+  animation: scale-up-center 0.6s ease-in both;
 }
- @-webkit-keyframes scale-up-center {
+
+@keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    transform: scale(0.95);
   }
   100% {
     -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
 }
-.bounce-out-right {
-	-webkit-animation: bounce-out-right 1.5s both;
-	        animation: bounce-out-right 1.5s both;
+#lesson25_1,
+#lesson25_2,
+#lesson25_3,
+#lesson26_2,
+#lesson26_3,
+#lesson28_3,
+#lesson28_1,
+#lesson29_3,
+#lesson29_1 {
+  display: none;
 }
-
