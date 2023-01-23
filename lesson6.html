@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Урок 6</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/green-audio-player.css"
+    />
+    <link rel="stylesheet" href="style/mystyle.css" />
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/green-audio-player.js"></script>
+    <script src="js/myjs.js"></script>
+  </head>
+  <body>
+    <div class="container header">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 images">
+          <img
+            id="images"
+            class="img-fluid mx-auto d-block"
+            width="50%"
+            src="img/Flag_of_Ukraine.png"
+          />
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <h2 class="text-center text-uppercase">
+            Люксембурзька мова для українців
+          </h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 images">
+          <img
+            id="images"
+            class="img-fluid mx-auto d-block"
+            width="50%"
+            src="img/Flag_of_Luxembourg.svg.png"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar" style="background-color: #e3f2fd">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" title="Homepage"
+                >Головна сторінка</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="lesson1.html"
+                role="button"
+                aria-expanded="false"
+                title="List of lessons"
+                >Список уроків</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="lesson1.html" title="Lesson 1"
+                    >Урок 1</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="lesson2.html" title="Lesson 2"
+                    >Урок 2</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="lesson3.html" title="Lesson 3"
+                    >Урок 3</a
+                  >
+                </li>
+                <li>
+                    <a class="dropdown-item" href="lesson5.html" title="Lesson 5"
+                      >Урок 4</a
+                    >
+                  </li>
+                <li>
+                  <a class="dropdown-item" href="lesson5.html" title="Lesson 5"
+                    >Урок 5</a
+                  >
+                </li>
+                <li>
+                    <a
+                      class="dropdown-item active"
+                      href="lesson6.html"
+                      aria-current="page"
+                      title="Lesson 6"
+                      >Урок 6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="lesson7.html" title="Lesson 7"
+                      >Урок 7</a
+                    >
+                  </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="link.html" title="Links">Посилання</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/31.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Hello"
+            />
+            <h3 class="text-center p-2">Я іду на покупками</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample1"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample1"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample2"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample2"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample2">
+              <div class="gap-example">
+                <audio>
+                  <source
+                    src="audio/31. Я іду на покупки--online-audio-convert.com.mp3"
+                    type="audio/mpeg"
+                  />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample1">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>Я іду на покупками</td>
+                    <td>Ech gin akaafen</td>
+                  </tr>
+                  <tr>
+                    <td>Магазин</td>
+                    <td>Geschäft</td>
+                  </tr>
+                  <tr>
+                    <td>Супермаркет</td>
+                    <td>Supermarché</td>
+                  </tr>
+                  <tr>
+                    <td>Ринок</td>
+                    <td>De Maart</td>
+                  </tr>
+                  <tr>
+                    <td>Пекар</td>
+                    <td>De Backer</td>
+                  </tr>
+                  <tr>
+                    <td>Хлібний магазин</td>
+                    <td>D’ Bäckerei</td>
+                  </tr>
+                  <tr>
+                    <td>М’ясна лавка</td>
+                    <td>De Metzlerei</td>
+                  </tr>
+                  <tr>
+                    <td>М’ясник</td>
+                    <td>De Metzler</td>
+                  </tr>
+                  <tr>
+                    <td>Крамничка</td>
+                    <td>D’ Epicerie</td>
+                  </tr>
+                  <tr>
+                    <td>Мені потрібно 500 грамів м’ясного фаршу</td>
+                    <td>Ech hätt gär 500 Gramm (1 Pond) Gehacktes</td>
+                  </tr>
+                  <tr>
+                    <td>Будь ласка, ще 750 грамів полуниць</td>
+                    <td>W.e.g. nach 750 Gramm Erdbieren</td>
+                  </tr>
+                  <tr>
+                    <td>Додайте ще трохи! Так добре. Досить.</td>
+                    <td>Nach en bëssen méi! Gudd esou. Et geet duer. </td>
+                  </tr>
+                  <tr>
+                    <td>Скільки це коштує?</td>
+                    <td>Wat ( Wei vill ) kascht dat?</td>
+                  </tr>
+                  <tr>
+                    <td>12 євро. Як ви будете платити?</td>
+                    <td>12 Euro. Wéi bezuelt Dir?</td>
+                  </tr>
+                  <tr>
+                    <td>Я плачу готівкою</td>
+                    <td>Ech bezuelen bor.</td>
+                  </tr>
+                  <tr>
+                    <td>Я плачу кредитною карткою</td>
+                    <td>Ech bezuelen mat der Kaard.</td>
+                  </tr>
+                  <tr>
+                    <td>Вам потрібен одноразовий пакет?</td>
+                    <td>Braucht Dir eng Tut?</td>
+                  </tr>
+                  <tr>
+                    <td>А може вас цікавить наша сумка за 1 євро?</td>
+                    <td>Vläicht interesséiert Iech onsen Kuef fir 1 Euro?</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/32.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Hello"
+            />
+            <h3 class="text-center p-2">Купуємо одяг і взуття </h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_1"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_1"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_2"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_2"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_2">
+              <div class="gap-example">
+                <audio>
+                  <source src="audio/32. Купуємо одяг і взуття--online-audio-convert.com.mp3" type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_1">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>Купуємо одяг і взуття </td>
+                    <td>Mir kafen  Gezei an Schong</td>
+                  </tr>
+                  <tr>
+                    <td>Вибачте, порадьте, де я можу купити взуття</td>
+                    <td>Entschëllegt (Pardon), kënnt Dir mir soen wou ech Schong fannen kann?</td>
+                  </tr>
+                  <tr>
+                    <td>Покажіть мені ці туфлі 38 розміру</td>
+                    <td>Weist mir w.e.g. déi Schong an der Gréisst 38.</td>
+                  </tr>
+                  <tr>
+                    <td>У вас є щось подібне, але без каблука?  /з каблуком?/</td>
+                    <td>Hud Dir eppes Ähnleches ouni Talleken?/ mat Talleken?</td>
+                  </tr>
+                  <tr>
+                    <td>- У вас є ця модель 40 розміру?</td>
+                    <td>-Hud dir desen Model an der Gréisst 40? </td>
+                  </tr>
+                  <tr>
+                    <td>- Зачекайте, я подивлюся на складі</td>
+                    <td>-Een Moment w.e.g. ech kucken am Lager.</td>
+                  </tr>
+                  <tr>
+                    <td>Коли у вас починається розпродаж?</td>
+                    <td>Wéini fänken bei Iech d’Solden un?</td>
+                  </tr>
+                  <tr>
+                    <td>Я хочу приміряти ці чоботи меншого розміру</td>
+                    <td>Ech wëll des Stiwwelen  eng Nummer méi   kleng umoossen.</td>
+                  </tr>
+                  <tr>
+                    <td>Я шукаю зимове пальто 44 розміру</td>
+                    <td>Ech sichen en Wantermantel an der Gréisst 44.</td>
+                  </tr>
+                  <tr>
+                    <td>- У вас є ця модель іншого кольору?</td>
+                    <td>-Hud Dir dësen Model an enger anerer Faarw?</td>
+                  </tr>
+                  <tr>
+                    <td>- На жаль ні, всі наші моделі виставлені</td>
+                    <td>-Leider nët, all ons Modeller sin ausgestallt.</td>
+                  </tr>
+                  <tr>
+                    <td>Який з цих светрів кращої якості?</td>
+                    <td>Wat fir een vun dësen Pulloveren ass vun besserer Qualitéit?</td>
+                  </tr>
+                  <tr>
+                    <td>- Де можна це приміряти?</td>
+                    <td>-Wou kann ech dest umoossen?</td>
+                  </tr>
+                  <tr>
+                    <td>- Кабіна для примірки справа</td>
+                    <td>-D’Kabin ass rechts.</td>
+                  </tr>
+                  <tr>
+                    <td>Скільки коштує цей жакет?</td>
+                    <td>Wéi vill kascht des Jacket?</td>
+                  </tr>
+                  <tr>
+                    <td>О, це надто дорого. У вас є щось подібне, тільки дешевше?</td>
+                    <td>O, dat ass vill ze deier. Hud Dir eppes Ähnleches, just manner deier (méi bëlleg)?</td>
+                  </tr>
+                  <tr>
+                    <td>Дякую за пораду</td>
+                    <td>Merci fir d’Berodung.</td>
+                  </tr>
+                  <tr>
+                    <td>Запакуйте  це мені як подарунок</td>
+                    <td>Paakt mir dest als Kado (Cadeau) an.</td>
+                  </tr>
+                  <tr>
+                    <td>Дякуємо за покупку</td>
+                    <td>Merci fir den Akaaf.</td>
+                  </tr>
+                  <tr>
+                    <td>Я до ваших послуг</td>
+                    <td>Service!</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/33.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Hello"
+            />
+            <h3 class="text-center p-2">У аптеці </h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_3"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_3"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_4"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_4"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_4">
+              <div class="gap-example">
+                <audio>
+                  <source
+                    src="audio/33.В аптеці--online-audio-convert.com.mp3"
+                    type="audio/mpeg"
+                  />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_3">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td> У аптеці </td>
+                    <td> An der  Apdikt</td>
+                  </tr>
+                  <tr>
+                    <td>Аптека</td>
+                    <td>D’Apdikt</td>
+                  </tr>
+                  <tr>
+                    <td>У вас є рецепт від лікаря?</td>
+                    <td>Hud der en Rezept ( Ordonance ) vum Dokter?</td>
+                  </tr>
+                  <tr>
+                    <td>Ні. А які ліки ви відпускаєте без рецепту?</td>
+                    <td>Neen. An wat fir een Medikament kann ech ouni Rezept kréien?</td>
+                  </tr>
+                  <tr>
+                    <td>Знеболююче</td>
+                    <td>Schmerzmëttel</td>
+                  </tr>
+                  <tr>
+                    <td>Пастилки для горла</td>
+                    <td>Halspastillen</td>
+                  </tr>
+                  <tr>
+                    <td>Сироп для сухого\вологого кашлю</td>
+                    <td>En Sirop géint den dreschenen /naassen Houscht.</td>
+                  </tr>
+                  <tr>
+                    <td>Заспокійливе</td>
+                    <td>En Be/roueg/ungs/mëttel</td>
+                  </tr>
+                  <tr>
+                    <td>Ліки проти діареї</td>
+                    <td>Mëttel géingt Diarhée (Duerchfall)</td>
+                  </tr>
+                  <tr>
+                    <td>Снодійне</td>
+                    <td>Schlofmëttel</td>
+                  </tr>
+                  <tr>
+                    <td>У мене болить голова</td>
+                    <td>Ech hun Kappwéih.</td>
+                  </tr>
+                  <tr>
+                    <td>У мене болить живіт</td>
+                    <td>Ech hun Bauchwéih.</td>
+                  </tr>
+                  <tr>
+                    <td>Що ви можете мені порекомендувати?</td>
+                    <td>Wat kënnt Dir mir rekommandéieren?</td>
+                  </tr>
+                  <tr>
+                    <td>Я погано сплю. Що можна вживати?</td>
+                    <td>Ech schlofen schlecht. Wat kann ech huelen?</td>
+                  </tr>
+                  <tr>
+                    <td>Я порізала палець.</td>
+                    <td>Ech hun mech an den Fanger geschnidden.</td>
+                  </tr>
+                  <tr>
+                    <td>Дайте мені все, що потрібно для догляду за невеличкою ранкою.</td>
+                    <td>Gidd mir alles wat ech brauch fir no der klenger Wonn ze kucken.</td>
+                  </tr>
+                  <tr>
+                    <td>Дезінфектант для шкіри</td>
+                    <td>en Desinfektiounsmëttel fir d’Haut</td>
+                  </tr>
+                  <tr>
+                    <td>Пластир</td>
+                    <td>d’Plooschter</td>
+                  </tr>
+                  <tr>
+                    <td>Краплі для сухих очей</td>
+                    <td>Drëppsen fir dreschen An.</td>
+                  </tr>
+                  <tr>
+                    <td>У вас є якісь сильніші ліки?</td>
+                    <td>Hud Dir en mei staark Medikament?</td>
+                  </tr>
+                  <tr>
+                    <td>Я приймаю тільки ліки рослинного походження</td>
+                    <td>Ech huelen nëmmen planzlech Medikamenter</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/34.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Як ви поживаєте"
+            />
+            <h3 class="text-center p-2">Підсумкове зачитування</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_5"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_5"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_6"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_6"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_6">
+              <div class="gap-example">
+                <audio>
+                  <source
+                    src="audio/34. Підсумкове зачитування 5--online-audio-convert.com.mp3"
+                    type="audio/mpeg"
+                  />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_5">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td>Я іду на покупками</td>
+                    <td>Ech gin akaafen</td>
+                  </tr>
+                  <tr>
+                    <td>Магазин</td>
+                    <td>Geschäft</td>
+                  </tr>
+                  <tr>
+                    <td>Супермаркет</td>
+                    <td>Supermarché</td>
+                  </tr>
+                  <tr>
+                    <td>Ринок</td>
+                    <td>De Maart</td>
+                  </tr>
+                  <tr>
+                    <td>Пекар</td>
+                    <td>De Backer</td>
+                  </tr>
+                  <tr>
+                    <td>Хлібний магазин</td>
+                    <td>D’ Bäckerei</td>
+                  </tr>
+                  <tr>
+                    <td>М’ясна лавка</td>
+                    <td>De Metzlerei</td>
+                  </tr>
+                  <tr>
+                    <td>М’ясник</td>
+                    <td>De Metzler</td>
+                  </tr>
+                  <tr>
+                    <td>Крамничка</td>
+                    <td>D’ Epicerie</td>
+                  </tr>
+                  <tr>
+                    <td>Мені потрібно 500 грамів м’ясного фаршу</td>
+                    <td>Ech hätt gär 500 Gramm (1 Pond) Gehacktes</td>
+                  </tr>
+                  <tr>
+                    <td>Будь ласка, ще 750 грамів полуниць</td>
+                    <td>W.e.g. nach 750 Gramm Erdbieren</td>
+                  </tr>
+                  <tr>
+                    <td>Додайте ще трохи! Так добре. Досить.</td>
+                    <td>Nach en bëssen méi! Gudd esou. Et geet duer. </td>
+                  </tr>
+                  <tr>
+                    <td>Скільки це коштує?</td>
+                    <td>Wat ( Wei vill ) kascht dat?</td>
+                  </tr>
+                  <tr>
+                    <td>12 євро. Як ви будете платити?</td>
+                    <td>12 Euro. Wéi bezuelt Dir?</td>
+                  </tr>
+                  <tr>
+                    <td>Я плачу готівкою</td>
+                    <td>Ech bezuelen bor.</td>
+                  </tr>
+                  <tr>
+                    <td>Я плачу кредитною карткою</td>
+                    <td>Ech bezuelen mat der Kaard.</td>
+                  </tr>
+                  <tr>
+                    <td>Вам потрібен одноразовий пакет?</td>
+                    <td>Braucht Dir eng Tut?</td>
+                  </tr>
+                  <tr>
+                    <td>А може вас цікавить наша сумка за 1 євро?</td>
+                    <td>Vläicht interesséiert Iech onsen Kuef fir 1 Euro?</td>
+                  </tr>
+                  <tr>
+                    <td>Купуємо одяг і взуття </td>
+                    <td>Mir kafen  Gezei an Schong</td>
+                  </tr>
+                  <tr>
+                    <td>Вибачте, порадьте, де я можу купити взуття</td>
+                    <td>Entschëllegt (Pardon), kënnt Dir mir soen wou ech Schong fannen kann?</td>
+                  </tr>
+                  <tr>
+                    <td>Покажіть мені ці туфлі 38 розміру</td>
+                    <td>Weist mir w.e.g. déi Schong an der Gréisst 38.</td>
+                  </tr>
+                  <tr>
+                    <td>У вас є щось подібне, але без каблука?  /з каблуком?/</td>
+                    <td>Hud Dir eppes Ähnleches ouni Talleken?/ mat Talleken?</td>
+                  </tr>
+                  <tr>
+                    <td>- У вас є ця модель 40 розміру?</td>
+                    <td>-Hud dir desen Model an der Gréisst 40? </td>
+                  </tr>
+                  <tr>
+                    <td>- Зачекайте, я подивлюся на складі</td>
+                    <td>-Een Moment w.e.g. ech kucken am Lager.</td>
+                  </tr>
+                  <tr>
+                    <td>Коли у вас починається розпродаж?</td>
+                    <td>Wéini fänken bei Iech d’Solden un?</td>
+                  </tr>
+                  <tr>
+                    <td>Я хочу приміряти ці чоботи меншого розміру</td>
+                    <td>Ech wëll des Stiwwelen  eng Nummer méi   kleng umoossen.</td>
+                  </tr>
+                  <tr>
+                    <td>Я шукаю зимове пальто 44 розміру</td>
+                    <td>Ech sichen en Wantermantel an der Gréisst 44.</td>
+                  </tr>
+                  <tr>
+                    <td>- У вас є ця модель іншого кольору?</td>
+                    <td>-Hud Dir dësen Model an enger anerer Faarw?</td>
+                  </tr>
+                  <tr>
+                    <td>- На жаль ні, всі наші моделі виставлені</td>
+                    <td>-Leider nët, all ons Modeller sin ausgestallt.</td>
+                  </tr>
+                  <tr>
+                    <td>Який з цих светрів кращої якості?</td>
+                    <td>Wat fir een vun dësen Pulloveren ass vun besserer Qualitéit?</td>
+                  </tr>
+                  <tr>
+                    <td>- Де можна це приміряти?</td>
+                    <td>-Wou kann ech dest umoossen?</td>
+                  </tr>
+                  <tr>
+                    <td>- Кабіна для примірки справа</td>
+                    <td>-D’Kabin ass rechts.</td>
+                  </tr>
+                  <tr>
+                    <td>Скільки коштує цей жакет?</td>
+                    <td>Wéi vill kascht des Jacket?</td>
+                  </tr>
+                  <tr>
+                    <td>О, це надто дорого. У вас є щось подібне, тільки дешевше?</td>
+                    <td>O, dat ass vill ze deier. Hud Dir eppes Ähnleches, just manner deier (méi bëlleg)?</td>
+                  </tr>
+                  <tr>
+                    <td>Дякую за пораду</td>
+                    <td>Merci fir d’Berodung.</td>
+                  </tr>
+                  <tr>
+                    <td>Запакуйте  це мені як подарунок</td>
+                    <td>Paakt mir dest als Kado (Cadeau) an.</td>
+                  </tr>
+                  <tr>
+                    <td>Дякуємо за покупку</td>
+                    <td>Merci fir den Akaaf.</td>
+                  </tr>
+                  <tr>
+                    <td>Я до ваших послуг</td>
+                    <td>Service!</td>
+                  </tr>
+                  <td> У аптеці </td>
+                  <td> An der  Apdikt</td>
+                </tr>
+                <tr>
+                  <td>Аптека</td>
+                  <td>D’Apdikt</td>
+                </tr>
+                <tr>
+                  <td>У вас є рецепт від лікаря?</td>
+                  <td>Hud der en Rezept ( Ordonance ) vum Dokter?</td>
+                </tr>
+                <tr>
+                  <td>Ні. А які ліки ви відпускаєте без рецепту?</td>
+                  <td>Neen. An wat fir een Medikament kann ech ouni Rezept kréien?</td>
+                </tr>
+                <tr>
+                  <td>Знеболююче</td>
+                  <td>Schmerzmëttel</td>
+                </tr>
+                <tr>
+                  <td>Пастилки для горла</td>
+                  <td>Halspastillen</td>
+                </tr>
+                <tr>
+                  <td>Сироп для сухого\вологого кашлю</td>
+                  <td>En Sirop géint den dreschenen /naassen Houscht.</td>
+                </tr>
+                <tr>
+                  <td>Заспокійливе</td>
+                  <td>En Be/roueg/ungs/mëttel</td>
+                </tr>
+                <tr>
+                  <td>Ліки проти діареї</td>
+                  <td>Mëttel géingt Diarhée (Duerchfall)</td>
+                </tr>
+                <tr>
+                  <td>Снодійне</td>
+                  <td>Schlofmëttel</td>
+                </tr>
+                <tr>
+                  <td>У мене болить голова</td>
+                  <td>Ech hun Kappwéih.</td>
+                </tr>
+                <tr>
+                  <td>У мене болить живіт</td>
+                  <td>Ech hun Bauchwéih.</td>
+                </tr>
+                <tr>
+                  <td>Що ви можете мені порекомендувати?</td>
+                  <td>Wat kënnt Dir mir rekommandéieren?</td>
+                </tr>
+                <tr>
+                  <td>Я погано сплю. Що можна вживати?</td>
+                  <td>Ech schlofen schlecht. Wat kann ech huelen?</td>
+                </tr>
+                <tr>
+                  <td>Я порізала палець.</td>
+                  <td>Ech hun mech an den Fanger geschnidden.</td>
+                </tr>
+                <tr>
+                  <td>Дайте мені все, що потрібно для догляду за невеличкою ранкою.</td>
+                  <td>Gidd mir alles wat ech brauch fir no der klenger Wonn ze kucken.</td>
+                </tr>
+                <tr>
+                  <td>Дезінфектант для шкіри</td>
+                  <td>en Desinfektiounsmëttel fir d’Haut</td>
+                </tr>
+                <tr>
+                  <td>Пластир</td>
+                  <td>d’Plooschter</td>
+                </tr>
+                <tr>
+                  <td>Краплі для сухих очей</td>
+                  <td>Drëppsen fir dreschen An.</td>
+                </tr>
+                <tr>
+                  <td>У вас є якісь сильніші ліки?</td>
+                  <td>Hud Dir en mei staark Medikament?</td>
+                </tr>
+                <tr>
+                  <td>Я приймаю тільки ліки рослинного походження</td>
+                  <td>Ech huelen nëmmen planzlech Medikamenter</td>
+                </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/35.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Подяка"
+            />
+            <h3 class="text-center p-2">У дорозі </h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_7"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_7"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_8"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_8"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_8">
+              <div class="gap-example">
+                <audio>
+                  <source src="audio/35. У дорозі 1--online-audio-convert.com.mp3" type="audio/mpeg" />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_7">
+              <div class="card card-body">
+                <table class="table table-hover">
+                  <tr>
+                    <td> У дорозі</td>
+                    <td>Ënnerwee</td>
+                  </tr>
+                  <tr>
+                    <td>Вокзал</td>
+                    <td>D’Gare</td>
+                  </tr>
+                  <tr>
+                    <td>Автобус</td>
+                    <td>De Bus</td>
+                  </tr>
+                  <tr>
+                    <td>Автобусна зупинка</td>
+                    <td>D’Bus-Haltestell</td>
+                  </tr>
+                  <tr>
+                    <td>Квиток</td>
+                    <td>De Billié, de Ticket</td>
+                  </tr>
+                  <tr>
+                    <td>Трамвай</td>
+                    <td>Den Tram</td>
+                  </tr>
+                  <tr>
+                    <td>Поїзд</td>
+                    <td>Den Zuch</td>
+                  </tr>
+                  <tr>
+                    <td>Вибачте, де можна купити квиток на автобус?</td>
+                    <td>Entschëllegt, wou kréien ech en Billié fir den Autobus?</td>
+                  </tr>
+                  <tr>
+                    <td>Вам не потрібен квиток на автобус.</td>
+                    <td>Dir braucht keen Billié fir den Bus.</td>
+                  </tr>
+                  <tr>
+                    <td>У Люксембурзі громадський транспорт безплатний.</td>
+                    <td>Zu Lëtzebuerg ass den öffentlechen Transport gratis.</td>
+                  </tr>
+                  <tr>
+                    <td>Який автобус їде до площі Гаміліус?</td>
+                    <td>Wat fir een Bus hält um Hamilius?</td>
+                  </tr>
+                  <tr>
+                    <td>Цей поїзд їде в Esch?</td>
+                    <td>Fiirt dësen Zuch op Esch?</td>
+                  </tr>
+                  <tr>
+                    <td>Де я можу знайти розклад руху автобусів?</td>
+                    <td>Wou kann ech den Fahrplan ( d” Horairen ) vun den Bussen fannen?</td>
+                  </tr>
+                  <tr>
+                    <td>Коли буде наступний автобус №5?</td>
+                    <td>Wéini kënnt den nächsten Bus N°5?</td>
+                  </tr>
+                  <tr>
+                    <td>Скільки часу іде поїзд з Люкс.-міста до Трієра?</td>
+                    <td>Wéi laang braucht den Zuch vun Lëtzebuerg -Staadt bis op Tréier?</td>
+                  </tr>
+                  <tr>
+                    <td>Мені потрібен квиток другого класу на найближчий поїзд до Брюсселя</td>
+                    <td>Ech brauch en Billié vun der 2. Klass fir den nächsten Zuch op Bréissel. </td>
+                  </tr>
+                  <tr>
+                    <td>- Вам квиток в одному напрямку?</td>
+                    <td>-En Billié fir en Aller?</td>
+                  </tr>
+                  <tr>
+                    <td>- Ні, дайте мені квиток туди і назад</td>
+                    <td>-Nee, en Billié Aller/ Retour w.e.g..</td>
+                  </tr>
+                  <tr>
+                    <td>- Поїзд буде вчасно?</td>
+                    <td>-Ass den Zuch pénktlech?</td>
+                  </tr>
+                  <tr>
+                    <td>- Ні, поїзд, на жаль, запізнюється</td>
+                    <td>-Nee, leider ass den Zuch an Verspéidung.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="p-2 m-1 shad border bg-light">
+            <img
+              src="img/36.jpg"
+              class="img-fluid img-thumbnail mx-auto d-block hov"
+              alt="Вибачте"
+            />
+            <h3 class="text-center p-2">У дорозі</h3>
+            <div class="row gx-2">
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_9"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_9"
+                >
+                  <img
+                    src="img/read.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Текст"
+                  />
+                </button>
+              </div>
+              <div class="col-6">
+                <button
+                  class="btn btn-outline-secondary collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample_10"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample_10"
+                >
+                  <img
+                    src="img/play.png"
+                    class="img-fluid"
+                    width="25%"
+                    alt="Аудіо плеєр"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_10">
+              <div class="gap-example">
+                <audio>
+                  <source
+                    src="audio/36. У дорозі 2--online-audio-convert.com.mp3"
+                    type="audio/mpeg"
+                  />
+                </audio>
+              </div>
+            </div>
+
+            <div class="collapse p-1" id="multiCollapseExample_9">
+              <div class="card card-body">
+                <table class="table table-hover">
+                    <tr>
+                        <td>На скільки запізнюється поїзд?</td>
+                        <td>Em weivill verspéit sech den Zuch?</td>
+                      </tr>
+                      <tr>
+                        <td>- Де знаходиться туалет?</td>
+                        <td>-Wou ass d’Toilet?</td>
+                      </tr>
+                      <tr>
+                        <td>- Туалет справа</td>
+                        <td>-Toilett ass rechts /lenks.</td>
+                      </tr>
+                      <tr>
+                        <td>Де вихід з вокзалу?</td>
+                        <td>Wou geet et aus der Gare eraus/ Wou ass d”Sortie?</td>
+                      </tr>
+                      <tr>
+                        <td>Як проїхати з вокзалу до центральної площі?</td>
+                        <td>Wéi kënnt een vun der Gare op d’Place central ?</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center p-2 m-0">
+          <div class="col-4 col-lg-1 col-md-2 col-sm-3">
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              onclick="window.location.href='lesson5.html';"
+            >
+              <img src="img/left.png" class="img-fluid" width="65%" />
+            </button>
+          </div>
+          <div class="col-4 col-lg-1 col-md-2 col-sm-3">
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              onclick="window.location.href='lesson7.html';"
+            >
+              <img src="img/right.png" class="img-fluid" width="65%" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="background-color: var(--colHead)">
+      <div class="row justify-content-center text-center">
+        <div class="col-3 col-lg-1 col-md-2 col-sm-2 p-3">
+          <a href="pdf/Lessons.pdf" target="_blank" title="PDF"
+            ><img class="img-fluid hov" width="70%" src="img/pdf-icon.png"
+          /></a>
+        </div>
+        <div class="col-3 col-lg-1 col-md-2 col-sm-2 p-3 text-center">
+          <a
+            href="https://t.me/+CLiMJfTA4UliN2My"
+            target="_blank"
+            title="Telegram"
+            ><img
+              class="img-fluid hov"
+              width="70%"
+              src="img/telegram-logo-png-0.png"
+          /></a>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 p-3">
+          <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" title="Homepage"
+                >Головна сторінка</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lesson1.html" title="Lesson 1"
+                >Урок 1</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lesson2.html" title="Lesson 2"
+                >Урок 2</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lesson3.html" title="Lesson 3"
+                >Урок 3</a
+              >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lesson4.html" title="Lesson 4"
+                  >Урок 4</a
+                >
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lesson5.html" title="Lesson 5"
+                >Урок 5</a
+              >
+            </li>
+            <li class="nav-item">
+                <a
+                  class="nav-link active hov"
+                  aria-current="page"
+                  href="lesson6.html"
+                  title="Lesson 6"
+                  >Урок 6</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lesson7.html" title="Lesson 7"
+                  >Урок 7</a
+                >
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="link.html" title="Links">Посилання</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <div class="text-uppercase">
+            <p>&copy Luxkraine 2022-2023.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
