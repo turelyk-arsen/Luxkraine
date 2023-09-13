@@ -1,0 +1,5 @@
+1. in project folder create docker image from dockerfile
+docker build -t luxkraine:v01 .
+
+2. run nginx server 8080 (80 - apache2)
+docker run -d --rm --name luxkraine -p 8080:80 -v /home/arsen/docker/file/Luxkraine:/var/www/html luxkraine:v01
